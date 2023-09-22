@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/a5d7d50019.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -68,8 +70,45 @@
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <div class="hero min-h-screen bg-base-200">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <div class="text-center lg:text-left  w-96">
+                    <h1 class="text-5xl font-bold mb-8">Contact us</h1>
+                    <p class="flex flex-col">
+                        <a class="hover:text-blue-600 mt-5" href=""><i class="fa-solid fa-phone"></i> 01892349827</a>
+                        
+                        <a class="hover:text-blue-600 mt-5" href=""><i class="fa-solid fa-envelope"></i> cam_world@gmail.com</a>
+                        
+                        <a class="hover:text-blue-600 mt-5" href=""><i class="fa-brands fa-facebook-f"></i> facebook.com/cam_world</a>
+
+                    </p>
+                </div>
+                <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <div class="card-body">
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Email</span>
+                            </label>
+                            <input type="text" placeholder="email" class="input input-bordered" />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Your message</span>
+                            </label>
+                            <textarea class="p-3 rounded-xl " placeholder="Please enter your message here" id="" cols="30" rows="5"></textarea>
+                            
+                        </div>
+                        <div class="form-control mt-6">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer></footer>
 </body>
+
 </html>
